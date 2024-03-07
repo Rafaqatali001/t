@@ -1,0 +1,150 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* ########################### header stylling ########################### */
+
+header {
+  position: relative;
+  background: url(../image.css/81518-tree-sunset-artist-artwork-digital-art-hd-deviantart.jpg);
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  top: 50%;
+  left: 50%;
+}
+.header-content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  top: 25%;
+  left: 50%;
+}
+.container-content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  top: 70%;
+  left: 50%;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+/* ####################### colors ######################## */
+
+.color {
+  color: gray;
+}
+
+.color1 {
+  color: aliceblue;
+}
+
+.color2 {
+  color: red;
+}
+
+/* ######################### Navbar STyling ######################*/
+
+.navbar {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.navbar li {
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar .nav-item {
+  padding: 1rem;
+}
+
+/* ########################## article content styling ########################## */
+
+.article-content {
+  text-align: center;
+}
+
+.heading {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+/* ########################## Image content styling ########################## */
+
+.main-div {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-div .row {
+  display: flex;
+  display: inline-block;
+}
+
+/* .main-div .row1,
+.row2 {
+  padding-top: 3rem;
+  padding: 2rem;
+} */
+
+.text {
+  padding-top: 1rem;
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+  /* .main-container {
+    width: 500px;
+    margin: 0% auto;
+    box-sizing: border-box;
+  } */
+  .navbar .nav-item {
+    width: 100%;
+    margin: 0% auto;
+    text-align: center;
+  }
+  .main-div {
+    width: 80%;
+    text-align: center;
+    padding-top: 2rem;
+    /* padding: 2rem 4rem 2rem 4rem; */
+  }
+  .header-content {
+    display: none;
+  }
+  .container {
+    top: 30%;
+    width: 100%;
+  }
+  .container-content {
+    width: 80%;
+    top: 50%;
+  }
+}
